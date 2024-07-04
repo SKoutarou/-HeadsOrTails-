@@ -11,7 +11,7 @@ public class HeadsOrTails {
         for (int i = 1; i <= 3; i++) {
             boolean coin = random.nextBoolean();
             String result = coin ? "Heads" : "Tails";
-            System.out.println("Round "i + ": " + result);
+            System.out.println("Round " + i + ": " + result);
             if (coin) {
                 headsCount++;
             } else {
